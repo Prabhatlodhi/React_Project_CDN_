@@ -1,12 +1,11 @@
-
-
-const heading3 = React.createElement("h3",{className:"koko"}, "333333 content I want to put inside the taggggggggggggg");
-// const heading2 = React.createElement("h2",{}, "2222 content I want to put inside the tah");
-// const heading = React.createElement("div",{key:2}, [heading2, heading3]);
-// const ccc = React.createElement("div",{key:3}, [heading]);
+import React from "react";
+import ReactDOM from "react-dom/client";
 
 
 
+const heading3 = React.createElement('h1',{}, "33333Hello WOgrld");
+// const heading2 = React.createElement('h1',{}, "2222Hello WOrld");
+// const heading = React.createElement('h1',{}, [heading2, heading3]);
 
-const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render(heading3)
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(heading3);
